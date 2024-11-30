@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(to left, #2c5364, #203a43, #0f2027);
+}
+#logo {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+.content {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(to left, #2c5364, #203a43, #0f2027);
+}
+header {
+  background: linear-gradient(to right, silver, #C0C0C0);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #C0C0C0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to left, #2c5364, #203a43, #0f2027);
+}
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.product-container {
+  max-width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input[type="number"] {
+  width: 50px;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+label {
+  margin-left: 10px;
+}
+#price-display {
+  font-weight: bold;
+  margin-top: 20px;
+}
+#total-price {
+  color: #337ab7;
+}
